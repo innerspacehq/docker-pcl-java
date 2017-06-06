@@ -4,7 +4,7 @@
 #
 
 # Pull base image.
-FROM innerspace/docker-pcl
+FROM innerspace/docker-pcl:ubuntu_16.04
 
 # Install Java.
 RUN \
